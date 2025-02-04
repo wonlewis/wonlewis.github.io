@@ -9,5 +9,4 @@ const nextConfig = {
     basePath: isProd ? '/wonlewis.github.io' : '',
     output: 'export'
 };
-
-export default nextConfig;
+module.exports = nextConfig;
